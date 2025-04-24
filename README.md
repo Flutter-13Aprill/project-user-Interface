@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/26b36507-30bc-4393-b356-26ea7efe058d)# Building a User Interface (UI) using Widgets
+# Building a User Interface (UI) using Widgets
 
 In this project, the goal is to design a user interface (UI) using Flutter Widgets without involving any business logic or interactivity. The focus will be on mastering the essential layout and design techniques.
 

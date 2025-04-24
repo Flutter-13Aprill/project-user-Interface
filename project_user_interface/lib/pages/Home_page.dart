@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:project_user_interface/widegets/home_wdgets/ChangeImageButton.dart';
 import 'package:project_user_interface/widegets/home_wdgets/Description.dart';
-import 'package:project_user_interface/widegets/home_wdgets/profileCard.dart';
+import 'package:project_user_interface/widegets/home_wdgets/change_image_button.dart';
+import 'package:project_user_interface/widegets/home_wdgets/profile_card.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});

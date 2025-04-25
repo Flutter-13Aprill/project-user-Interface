@@ -1,0 +1,48 @@
+/**
+import 'package:flutter/material.dart';
+
+class HomeScreen extends StatelessWidget {
+  const HomeScreen({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        centerTitle: true,
+        title: Text(
+          "Random image app",
+          style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold),
+        ),
+        backgroundColor: const Color.fromARGB(255, 35, 99, 37),
+      ),
+      body: Row(
+        children: [
+          // الصورة
+          Container(
+            width: 150,
+            height: 250,
+            margin: EdgeInsets.all(10),
+            child: Image.network(
+              "https://images.pexels.com/photos/1704488/pexels-photo-1704488.jpeg",
+              fit: BoxFit.cover, // ضبط الصورة لتناسب الحاوية
+            ),
+          ),
+          // النصوص
+          Expanded(
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start, // محاذاة النصوص إلى اليسار
+              mainAxisAlignment: MainAxisAlignment.start, // محاذاة عموديًا في الأعلى
+              children: [
+                Text("A designer person", style: TextStyle(fontSize: 20)),
+                SizedBox(height: 5), // مسافة بين النصوص
+                Text("with mountains in the background", style: TextStyle(fontSize: 20)),
+                SizedBox(height: 5), // مسافة بين النصوص
+                Text("holding a camera", style: TextStyle(fontSize: 20)),
+              ],
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+}*/

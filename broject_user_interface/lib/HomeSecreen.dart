@@ -34,7 +34,7 @@ class HomeSecreen extends StatelessWidget {
                     
                     //Using the Image widget to display the academy's logo
                     child: Image.asset(
-                      'asset/pic2/tuw_logo.jpg',
+                      'Asset/pic2/tuw_logo.jpg',
                       fit: BoxFit.cover,
                       
                     ),
@@ -49,7 +49,7 @@ class HomeSecreen extends StatelessWidget {
                       Text(
                         'Bushra Alzoman',
                         style: TextStyle(
-                          fontSize: 24,
+                          fontSize: 16,
                           fontWeight: FontWeight.w700,
                           color: Colors.deepPurple,
                         ),
@@ -57,7 +57,7 @@ class HomeSecreen extends StatelessWidget {
                       Text(
                         'Information Technology',
                         style: TextStyle(
-                          fontSize: 14,
+                          fontSize: 12,
                           fontWeight: FontWeight.w400,
                         ),
                       ),
@@ -112,7 +112,7 @@ class HomeSecreen extends StatelessWidget {
               Text(
                 'About me:',
                 style: TextStyle(
-                  fontSize: 24,
+                  fontSize: 18,
                   fontWeight: FontWeight.w700,
                   color: Colors.deepPurple,
                 ),
@@ -121,7 +121,7 @@ class HomeSecreen extends StatelessWidget {
               Text(
                 'A trainee at Tuwaiq Academy in the Mobile and Web Application Development Bootcamp using Flutter, and interested in the field of networking.',
                 style: TextStyle(
-                  fontSize: 16,
+                  fontSize: 12,
                   fontWeight: FontWeight.w300,
                 ),
               ),
